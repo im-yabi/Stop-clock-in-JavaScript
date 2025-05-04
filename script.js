@@ -50,9 +50,9 @@ function updateDisplay(){
   psec=sec<10?'0'+sec:sec;
   pms=ms<10?'0'+ms:ms;
   //Output
-  document.querySelector('.hrs').innerText=hrs;
-  document.querySelector('.min').innerText=min;
-  document.querySelector('.sec').innerText=sec;
-  document.querySelector('.ms').innerText=ms;
+  document.querySelector('.hrs').innerText=phrs;
+  document.querySelector('.min').innerText=pmin;
+  document.querySelector('.sec').innerText=psec;
+  document.querySelector('.ms').innerText=pms;
 }
 
